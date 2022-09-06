@@ -1,0 +1,68 @@
+* {
+    font-family:'Lucida Sans';
+    font-weight: 00;
+    font-size: 33px;
+    line-height: 150%;
+}
+
+body {
+    background-color: #fff
+}
+
+main {
+    display: flex;
+    margin-left: 80px;
+    margin-bottom: 50px;
+} 
+
+.input-texto {
+    margin-top: 90px;
+}
+
+.mensaje {
+    position: relative;
+    margin-top: 20px;
+    margin-left: 90px;
+    background-image: url("imagenes/muñeco.png");
+    background-repeat: no-repeat;
+    background-position: 18px;
+    background-size: 300px;
+
+}
+
+.copiar {
+    position: relative;
+    margin-top: 20px;
+    margin-left: 205px;
+}
+
+.botones {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.encriptar {
+    background-color: rgb(5, 182, 108);
+    color:rgb(22, 19, 19);
+}
+
+.desencriptar {
+    margin-left: 30px;
+    background-color: blue;
+}
+
+.informacion {
+    font-size: 15px;
+}
+
+footer {
+    margin-top: 20px;
+    margin-left: 50px;
+    font-size: 50px;
+}
+
+footer p {
+    background-color: rgb(241, 239, 247);
+    font-size: 20px;
+}
