@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: #fff
+    background: linear-gradient(#ffff, rgba(52, 209, 214, 0.667))
 }
 
 main {
@@ -22,10 +22,10 @@ main {
 .mensaje {
     position: relative;
     margin-top: 20px;
-    margin-left: 90px;
+    margin-left: 30px;
     background-image: url("imagenes/muñeco.png");
     background-repeat: no-repeat;
-    background-position: 18px;
+    background-position: 17px;
     background-size: 300px;
 
 }
@@ -43,13 +43,14 @@ main {
 }
 
 .encriptar {
-    background-color: rgb(5, 182, 108);
-    color:rgb(22, 19, 19);
+    background-color: rgb(7, 243, 26);
+    font-size:large
+    color #fff
 }
 
 .desencriptar {
     margin-left: 30px;
-    background-color: blue;
+    background-color: rgb(236, 35, 35);
 }
 
 .informacion {
@@ -63,6 +64,6 @@ footer {
 }
 
 footer p {
-    background-color: rgb(241, 239, 247);
+    background-color: rgba(147, 233, 236, 0.667);
     font-size: 20px;
 }
