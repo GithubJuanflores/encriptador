@@ -1,22 +1,23 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="reset.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <title>Encriptador 3000</title>
-</head>
-<body>  
-    <header>
-        <img src="/imagenes/logoalura.png" alt="Logo de alura con la inicial da letra a">
-    </header>
-    <main>
-        <section>
-            <!--Las "llaves" de encriptación son:
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="reset.css">
+        <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <title>Encriptador 3000 2.0</title>
+    </head>
 
+    <body>
+        <header>
+            <img src="imagenes/logoalura.png" alt="a de alura">
+        </header>
+        
+        <main>
+            <section>
+               <!--Las "llaves" de encriptación son:
             `La letra "e" es convertida para "enter"`
             `La letra "i" es convertida para "imes"`
             `La letra "a" es convertida para "ai"`
@@ -35,17 +36,22 @@
                     Desencriptar
                 </button>
             </div>
-        </section>        
-        <section class="mensaje-box">
-            <textarea class="mensaje" cols="18" rows="7"></textarea>
-            <button class="copiar" onclick="copiar()">Copiar</button>
-        </section>        
-    </main>
-    <script src="script.js"></script>
-    <footer>
-        <a href="https://www.linkedin.com/in/juan-flores-martinez/">Linkedin</a>
-        <p>Desarrollador: Juan Flores</p>
-        <img src="imagenes/perfil.jpg" alt="logo-cara">
-    </footer>
-</body>
+            </section>
+
+           <section class="mensaje-box">
+               <textarea class="mensaje" cols="18" rows="7"></textarea>
+               <button class="copiar" onclick="copiar()">Copiar</button>
+            </section>      
+        </main>
+
+        <script src="script.js"></script>
+
+        <footer>
+            <p>Autor: Juan Flores</p><br>
+            <img src="imagenes/perfil.jpg" alt="logo-cara" width="200px" height="200px">
+            <a href="https://github.com/GithubJuanflores"><img src="imagenes/GitHub-logo.jpeg"  alt="logo-github" width="200px" height="200px"></a>
+            <a href="https://www.linkedin.com/in/juan-flores-martinez"><img src="imagenes/linkedin-logo.png"  alt="logo-github" width="200px" height="200px"></a>
+        </footer>
+
+    </body>
 </html>
